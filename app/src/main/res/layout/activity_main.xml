@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8FB"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EDEDED"
+        android:text="Ingresa a Banca Móvil BCP"
+        android:textAlignment="center"
+        android:textColor="#0D4CEA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EAEAEA"
+        android:text="Clave de internet"
+        android:textAlignment="center"
+        android:textColor="#636262"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EAEAEA"
+        android:text="Olvidé mi clave"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144"
+        app:srcCompat="@mipmap/tarjeta" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName27"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="4444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName26"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="2222"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="175dp"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="1111"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="175dp"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="0"
+        android:text="5"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName20"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="0"
+        android:text="6"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName19"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="0"
+        android:text="3"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName17"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="361dp"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="0"
+        android:text="1"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="361dp"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="0"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName13"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="361dp"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="0"
+        android:text="4"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName18"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="361dp"
+        tools:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="276dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#FF9100"
+        android:text="Siguiente"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671"
+        app:strokeColor="#FF9100"
+        app:strokeWidth="1dp"
+        tools:ignore="TextContrastCheck"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="276dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/white"
+        android:text="No tengo clave de internet"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#676666"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755"
+        app:strokeColor="#FF676666"
+        app:strokeWidth="1dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName30"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName35"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName34"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName30"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName36"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName29"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName35"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName36"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName29"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
